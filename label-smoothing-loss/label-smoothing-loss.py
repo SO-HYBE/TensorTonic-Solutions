@@ -16,6 +16,7 @@ def label_smoothing_loss(predictions: list, target: int, epsilon: float) -> floa
         qis.append(qi)
         
     for i in range(len(predictions)):
-        L += qis[i] * math.log(predictions[i])
+        if predictions[i] != 0:
+            L += qis[i] * math.log(predictions[i])
 
     return -L
