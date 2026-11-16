@@ -89,6 +89,7 @@ Verified machine learning implementations completed on [TensorTonic](https://www
 | Implement Tanh Activation | Implement the hyperbolic tangent activation element-wise with outputs bounded between minus one and one. | https://www.tensortonic.com/problems/tanh-activation |
 | LayerNorm Backward | Implement LayerNorm backward in Triton with row-wise statistics and atomic gradients for scale and bias. | https://www.tensortonic.com/problems/triton-layernorm-backward |
 | Value Iteration Step | Perform one Bellman optimality update across states and actions for a tabular Markov decision process. | https://www.tensortonic.com/problems/value-iteration-step |
+| Warmup + Linear Decay LR Schedule | Compute a learning-rate schedule with linear warmup followed by linear decay across training steps. | https://www.tensortonic.com/problems/warmup-decay-lr |
 | Implement Wasserstein Critic Loss | Compute the WGAN critic loss as the difference between mean fake and real critic scores, with the formula and tests in the browser. | https://www.tensortonic.com/problems/wasserstein-critic-loss |
 | Weighted Moving Average | Compute a weighted moving average over complete time-series windows using normalized supplied weights. | https://www.tensortonic.com/problems/weighted-moving-average |
 | Implement z-Score Standardization | Standardize NumPy features to zero mean and unit variance with explicit handling for constant columns. | https://www.tensortonic.com/problems/zscore-standardization |
